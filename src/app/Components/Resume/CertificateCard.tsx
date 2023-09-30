@@ -13,17 +13,19 @@ export default function CertificateCard(props: any) {
       </div>
       <div className="w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300 rounded-lg p-10 lgl:px-10 flex flex-col justify-center shadow-shadowOne">
         <div className="w-full overflow-hidden rounded-lg">
-          <Image
-            className="w-full object-fill group-hover:scale-110 duration-300 cursor-pointer"
-            src={
-              props.src === "angular"
-                ? hackerrank
-                : props.src === "web"
-                ? web
-                : react
-            }
-            alt="src"
-          />
+          <a href={props.link} target="_blank" rel="noopener noreferrer">
+            <Image
+              className="w-full object-fill group-hover:scale-110 duration-300 cursor-pointer"
+              src={
+                props.src === "angular"
+                  ? hackerrank
+                  : props.src === "web"
+                  ? web
+                  : react
+              }
+              alt="src"
+            />
+          </a>
         </div>
         <div className="flex flex-col mt-3 lgl:flex-row justify-between lgl:items-center">
           <div>

@@ -18,7 +18,7 @@ export default function Resume() {
         />
         <span className="bannerIcon">
           <a
-            href="https://cdn.glitch.com/251da07e-ccd2-4ab2-a3fb-601349f3da61%2FSECE%20CBE_B.E.EEE_PREM.S.N_2021.pdf?v=1599413316356"
+            href="https://drive.google.com/file/d/1neNtoeEK-UlFxB_HHvum0bVRqdt55ZV8/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >

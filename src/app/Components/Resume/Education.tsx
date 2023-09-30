@@ -43,6 +43,7 @@ export default function Education() {
               subTitle={item.subTitle}
               src={item.src}
               result={item.result}
+              link={item.link}
             />
           ))}
         </div>

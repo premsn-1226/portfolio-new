@@ -178,17 +178,20 @@ export const certificateData = [
     subTitle: "HackerRank - (Issued on 15th July 2023)",
     src: "angular",
     result: "Online",
+    link: "https://www.hackerrank.com/certificates/3403dbb0162e",
   },
   {
     title: " Responsive Web Design",
     subTitle: "FreeCodeCamp - (Issued on 18th April 2020)",
     src: "web",
     result: "Online",
+    link: "https://www.freecodecamp.org/certification/prem_eee_sece/responsive-web-design",
   },
   {
     title: " React + Redux",
     subTitle: "SoloLearn - (Issued on 20th November 2020)",
     src: "react",
     result: "Online",
+    link: "https://www.sololearn.com/certificates/CT-DSWUHTTY",
   },
 ];
