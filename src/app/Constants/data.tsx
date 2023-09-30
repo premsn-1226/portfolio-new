@@ -17,7 +17,7 @@ export const navLinksdata = [
   },
   {
     _id: 1003,
-    title: "Features",
+    title: "Specialization",
     link: "features",
   },
   {
@@ -79,7 +79,7 @@ export const projectData = [
   {
     id: 1,
     title: "Medical Chatbot",
-    des: "This is a Medical related chatbot application using HTML, CSS, Javascript and Zoho Delgue for chatbot creation.",
+    des: "Medical related chatbot application using HTML, CSS, Javascript and Zoho Delgue for chatbot creation.",
     src: "medibot",
     githubLink: "https://github.com/premsn-1226/medibot",
     websiteLink: "https://miracle-medibot.glitch.me/home.html",
@@ -87,7 +87,7 @@ export const projectData = [
   {
     id: 2,
     title: "Sample E-commerce",
-    des: "This is a E-commerce application for serving house hold works. It is developed using HTML, CSS, Javascript.",
+    des: "E-commerce application for serving house hold works. It is developed using HTML, CSS, Javascript.",
     src: "ecommerce",
     githubLink: "https://github.com/premsn-1226/2gather-website-",
     websiteLink: "https://bookeasy-web.glitch.me/homepage.html",
@@ -95,7 +95,7 @@ export const projectData = [
   {
     id: 3,
     title: "Weather App",
-    des: "This is a weather website developed using HTML,CSS,Bootstrap,React.js and OpenWeather API.",
+    des: "Weather App is developed using HTML,CSS,Bootstrap,React.js and OpenWeather API.",
     src: "weather",
     githubLink: "https://github.com/premsn-1226/weather-app",
     websiteLink: "",
@@ -103,7 +103,7 @@ export const projectData = [
   {
     id: 4,
     title: "To Do List",
-    des: "This is a To Do List application developed using Next.js and Rest API using spring boot and MongoDB.",
+    des: "To Do List application is developed using Next.js and Rest API using spring boot and MongoDB.",
     src: "todolist",
     githubLink: "https://github.com/premsn-1226/ToDoListApp",
     websiteLink: "https://github.com/premsn-1226/ToDoListRestAPI",
@@ -111,7 +111,7 @@ export const projectData = [
   {
     id: 5,
     title: "Student Management",
-    des: "This is a Student Management website developed using React.js and Rest API using Spring Boot and H2 database.",
+    des: "Student Management website is developed using React.js and Rest API using Spring Boot and H2 database.",
     src: "student",
     githubLink: "https://github.com/premsn-1226/ReactProjectCurdOperation",
     websiteLink: "https://github.com/premsn-1226/CRUDSpringBoot",
@@ -119,7 +119,7 @@ export const projectData = [
   {
     id: 6,
     title: "Game",
-    des: "This is the first game application developed using HTML, CSS and Javascript",
+    des: "(Stone, Paper, Scissors) Game application is developed using HTML, CSS and Javascript",
     src: "game",
     githubLink: "https://github.com/premsn-1226/first_game",
     websiteLink: "",

@@ -19,7 +19,7 @@ export default function ResumeCard(props : any) {
             </p>
           </div>
           <div>
-            <p className="px-6 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium md:mt-5">
+            <p className="px-6 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium mb-5">
               {props.result}
             </p>
           </div>

@@ -12,13 +12,13 @@ export default function Resume() {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title
-          title="18+ YEARS OF ACADEMIC AND WORK EXPERIENCE"
-          des="My Resume"
-        />
-        <span className="bannerIcon">
+        <Title des="My Resume" />
+        <span
+          className="bannerIcon ml-5 w-10 h-10"
+          style={{ marginTop: "-35px" }}
+        >
           <a
-            href="https://drive.google.com/file/d/1THet3tr3g-FqwT2oIb1SC5y5Pb8EuUBu/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1W3CVAx8K-kh4cpAwhd3CWhp5ZZ0t3gf2/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >

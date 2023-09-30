@@ -8,7 +8,7 @@ export default function About() {
       className="w-full pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lg:flex-row items-center border-b-[1px] font-titleFont border-b-black"
     >
       <div className="flex flex-col gap-5">
-        <Title title="ABOUT" des="Who I'm" />
+        <Title des="Who I'm" />
         <p className="text-green-500 text-center font-bodyFont leading-relaxed tracking-wide">
           Hi there, I&apos;m glad to have you here!
         </p>
@@ -27,7 +27,7 @@ export default function About() {
           my abilities to use and help create amazing user experiences.
         </p>
         <p className="text-pink-500 text-center font-bodyFont leading-relaxed tracking-wide">
-          Thank you for taking the time to visit my portfolio!
+          Thanks for taking time to visit my portfolio!
         </p>
       </div>
     </section>

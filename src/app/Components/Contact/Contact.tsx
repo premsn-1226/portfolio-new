@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Title from "../layouts/Title";
 import ContactLeft from "./ContactLeft";
 
-export default function Contact () {
+export default function Contact() {
   const [username, setUsername] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -12,14 +12,14 @@ export default function Contact () {
   const [successMsg, setSuccessMsg] = useState("");
 
   // ========== Email Validation start here ==============
-  const emailValidation = (email : String) => {
+  const emailValidation = (email: String) => {
     return String(email)
       .toLocaleLowerCase()
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
   // ========== Email Validation end here ================
 
-  const handleSend = (e : any) => {
+  const handleSend = (e: any) => {
     e.preventDefault();
     if (username === "") {
       setErrMsg("Username is required!");
@@ -51,7 +51,7 @@ export default function Contact () {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="CONTACT" des="Lets Connect " />
+        <Title des="Lets Connect " />
       </div>
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
@@ -68,8 +68,8 @@ export default function Contact () {
                   {successMsg}
                 </p>
               )}
-              <div className="w-full flex flex-col lgl:flex-row gap-10">
-                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
+              <div className="w-full flex flex-col lgl:flex-row gap-1">
+                <div className="w-full lgl:w-1/2 flex flex-col gap-1">
                   <p className="text-sm text-gray-400 uppercase tracking-wide">
                     Name
                   </p>
@@ -83,36 +83,22 @@ export default function Contact () {
                     type="text"
                   />
                 </div>
-                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
+                <div className="w-full lgl:w-1/2 flex flex-col gap-1">
                   <p className="text-sm text-gray-400 uppercase tracking-wide">
-                    Phone Number
+                    Email
                   </p>
                   <input
-                    onChange={(e) => setPhoneNumber(e.target.value)}
-                    value={phoneNumber}
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
                     className={`${
-                      errMsg === "Phone number is required!" &&
+                      errMsg === "Please give your Email!" &&
                       "outline-designColor"
                     } contactInput`}
-                    type="text"
+                    type="email"
                   />
                 </div>
               </div>
-              <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">
-                  Email
-                </p>
-                <input
-                  onChange={(e) => setEmail(e.target.value)}
-                  value={email}
-                  className={`${
-                    errMsg === "Please give your Email!" &&
-                    "outline-designColor"
-                  } contactInput`}
-                  type="email"
-                />
-              </div>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-1">
                 <p className="text-sm text-gray-400 uppercase tracking-wide">
                   Subject
                 </p>
@@ -126,7 +112,7 @@ export default function Contact () {
                   type="text"
                 />
               </div>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-1">
                 <p className="text-sm text-gray-400 uppercase tracking-wide">
                   Message
                 </p>
@@ -137,13 +123,13 @@ export default function Contact () {
                     errMsg === "Message is required!" && "outline-designColor"
                   } contactTextArea`}
                   cols={30}
-                  rows={8}
+                  rows={4}
                 ></textarea>
               </div>
               <div className="w-full">
                 <button
-                  onClick={(e)=>handleSend(e)}
-                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
+                  onClick={(e) => handleSend(e)}
+                  className="w-full h-11 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
                 >
                   Send Message
                 </button>
@@ -164,4 +150,4 @@ export default function Contact () {
       </div>
     </section>
   );
-};
+}

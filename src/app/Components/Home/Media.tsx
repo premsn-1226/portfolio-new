@@ -1,12 +1,18 @@
 import React from "react";
-import { FaLinkedinIn, FaReact, FaJava, FaAngular, FaFileDownload } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaReact,
+  FaJava,
+  FaAngular,
+  FaPhoneAlt,
+} from "react-icons/fa";
 import { SiGithub, SiGmail, SiMysql } from "react-icons/si";
 
-export default function Media(props : any) {
+export default function Media(props: any) {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lg:gap-5 justify-between">
       <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
+        {!props.phone ? <h2 className="text-base uppercase font-titleFont mb-4">Social Profile</h2> : ""}
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a
@@ -31,12 +37,25 @@ export default function Media(props : any) {
               <FaLinkedinIn />
             </a>
           </span>
+          {props.phone ? (
+            <span className="bannerIcon">
+              <a
+                href="tel:+91 8056619027"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaPhoneAlt />
+              </a>
+            </span>
+          ) : (
+            ""
+          )}
         </div>
       </div>
       {props.stack ? (
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST WEB STACK
+            TECH STACK
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
