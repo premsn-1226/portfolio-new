@@ -1,5 +1,5 @@
-import React from 'react'
-import Title from '../layouts/Title';
+import React from "react";
+import Title from "../layouts/Title";
 
 export default function About() {
   return (
@@ -25,9 +25,6 @@ export default function About() {
           solutions. committed to continuous development and staying current
           with trends. I&apos;m looking for challenging projects where I can put
           my abilities to use and help create amazing user experiences.
-        </p>
-        <p className="text-pink-500 text-center font-bodyFont leading-relaxed tracking-wide">
-          Thanks for taking time to visit my portfolio!
         </p>
       </div>
     </section>
