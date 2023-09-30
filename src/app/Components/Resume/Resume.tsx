@@ -18,7 +18,7 @@ export default function Resume() {
         />
         <span className="bannerIcon">
           <a
-            href="https://drive.google.com/file/d/1neNtoeEK-UlFxB_HHvum0bVRqdt55ZV8/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1THet3tr3g-FqwT2oIb1SC5y5Pb8EuUBu/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
