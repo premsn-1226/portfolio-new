@@ -32,10 +32,10 @@ export default function Education() {
       </div>
       <div className="lgl:w-1/2">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2020 - 2023</p>
+          <p className="text-sm text-designColor tracking-[4px]">2020 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">CERTIFICATES</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1300px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[2500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           {certificateData.map((item) => (
             <CertificateCard
               key={item.title}
