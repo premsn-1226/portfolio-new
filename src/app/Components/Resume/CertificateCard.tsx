@@ -3,6 +3,8 @@ import React from "react";
 import hackerrank from "../../../../assest/hackerrank.png";
 import react from "../../../../assest/redux.png";
 import web from "../../../../assest/freecodecamp.png";
+import azure from "../../../../assest/AZ_900.jpg";
+import safe from "../../../../assest/safe_certification.jpg";
 import { FaFileDownload } from "react-icons/fa";
 export default function CertificateCard(props: any) {
   return (
@@ -22,6 +24,10 @@ export default function CertificateCard(props: any) {
                   ? hackerrank
                   : props.src === "web"
                   ? web
+                  : props.src === "Azure"
+                  ? azure
+                  : props.src === "Agile"
+                  ? safe
                   : react
               }
               alt="src"

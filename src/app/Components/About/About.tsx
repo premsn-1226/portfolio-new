@@ -13,7 +13,7 @@ export default function About() {
           Hi there, I&apos;m glad to have you here!
         </p>
         <p className="text-base text-center font-bodyFont leading-relaxed tracking-wide">
-          I am a Full stack developer with versatility and 2.8 years of
+          I am a Full stack developer with versatility and 4 years of
           experience who has a solid grasp of the whole software development
           lifecycle. Expert at designing reliable Rest APIs with core Java and
           Java frameworks like maven, spring boot, and microservices, as well as

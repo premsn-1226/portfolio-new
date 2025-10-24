@@ -4,17 +4,17 @@ import Media from "./Media";
 import { FaDownload } from "react-icons/fa";
 
 export default function LeftBanner() {
-    const [text] = useTypewriter({
-      words: [
-        "Professional Coder.",
-        "Java Developer.",
-        "Full Stack Web Developer.",
-      ],
-      loop: true,
-      typeSpeed: 60,
-      deleteSpeed: 40,
-      delaySpeed: 2500,
-    });
+  const [text] = useTypewriter({
+    words: [
+      "Professional Coder.",
+      "Java Developer.",
+      "Full Stack Web Developer.",
+    ],
+    loop: true,
+    typeSpeed: 60,
+    deleteSpeed: 40,
+    delaySpeed: 2500,
+  });
   return (
     <div className="w-full lg:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
@@ -23,7 +23,7 @@ export default function LeftBanner() {
           Hi, I&apos;m{" "}
           <span className="capitalize text-animation">Prem S N</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-3xl font-bold text-white">
           a <span>{text}</span>
           <Cursor cursorBlinking cursorStyle="|" cursorColor="rgb(2, 160, 2)" />
         </h2>

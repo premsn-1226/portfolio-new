@@ -153,13 +153,25 @@ export const educationData = [
 
 export const experienceData = [
   {
-    title: "ASSOCIATE SOFTWARE ENGINEER",
-    subTitle: "ACCENTURE - (24/12/2021 - Present)",
+    title: "SENIOR SOFTWARE ENGINEER",
+    subTitle: "ACCENTURE - (01/09/2025 - Present)",
     result: "REMOTE (BANGALORE)",
     des: "Skills: Version Control · Representational State Transfer (REST) · Algorithms · XML · TypeScript · Regression Testing · IBM FileNet · Postman API · Debugging Code · Software Deployment · Application Monitoring · Coding Practices · Communication · Core Java · Git · AngularJS · Front-End Development · Microsoft Azure · REST APIs · Java · Microservices · Spring Boot",
   },
   {
     title: "SOFTWARE ENGINEER",
+    subTitle: "ACCENTURE - (01/03/2024 - 31/08/2025)",
+    result: "REMOTE (BANGALORE)",
+    des: "Skills: Version Control · Representational State Transfer (REST) · Algorithms · XML · TypeScript · Regression Testing · IBM FileNet · Postman API · Debugging Code · Software Deployment · Application Monitoring · Coding Practices · Communication · Core Java · Git · AngularJS · Front-End Development · Microsoft Azure · REST APIs · Java · Microservices · Spring Boot",
+  },
+  {
+    title: "ASSOCIATE SOFTWARE ENGINEER",
+    subTitle: "ACCENTURE - (24/12/2021 - 28/02/2024)",
+    result: "REMOTE (BANGALORE)",
+    des: "Skills: Version Control · Representational State Transfer (REST) · Algorithms · XML · TypeScript · Regression Testing · IBM FileNet · Postman API · Debugging Code · Software Deployment · Application Monitoring · Coding Practices · Communication · Core Java · Git · AngularJS · Front-End Development · Microsoft Azure · REST APIs · Java · Microservices · Spring Boot",
+  },
+  {
+    title: "JUNIOR SOFTWARE ENGINEER",
     subTitle: "TECHJAYS - (15/04/2021 - 15/09/2021) [5 MONTHS]",
     result: "REMOTE (COIMBATORE)",
     des: "SKILLS : Version Control · Algorithms · electron · Postman API · Debugging · Coding Practices · Web Development · Responsive Web Design · Communication · Git · HTML5 · Cascading Style Sheets (CSS) · React.js · bootstrap · JavaScript",
@@ -173,6 +185,20 @@ export const experienceData = [
 ];
 
 export const certificateData = [
+  {
+    title: " Microsoft Certified - Azure Fundamentals ",
+    subTitle: "Microsoft - (Issued on April 2025)",
+    src: "Azure",
+    result: "Online",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/SNPrem-5648/26EE065929C169F8?sharingId=55F7AABC83FF3BD7",
+  },
+  {
+    title: " Certified SAFe® Agilist ",
+    subTitle: " SAFe by Scaled Agile, Inc. - (Issued on 11th June 2025)",
+    src: "Agile",
+    result: "Online",
+    link: "https://www.credly.com/go/Lgrn8jCwAR8kGzTBMmQ9wg",
+  },
   {
     title: " Angular Intermediate Assessment",
     subTitle: "HackerRank - (Issued on 15th July 2023)",
