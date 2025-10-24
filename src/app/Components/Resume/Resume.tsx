@@ -18,7 +18,7 @@ export default function Resume() {
           style={{ marginTop: "-35px" }}
         >
           <a
-            href="https://drive.google.com/file/d/1rgS2a4TxFZZzCUwfetg7jTrELteNz_TQ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ewX41jfPvllm9gNYvwBALmQgcZwj-85u/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
